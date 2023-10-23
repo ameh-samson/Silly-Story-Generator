@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: helvetica, sans-serif;
+  line-height: 1.8;
+}
+
+.container {
+  width: 350px;
+}
+
+label {
+  font-weight: bold;
+}
+
+div {
+  padding-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 150px;
+}
+
+p {
+  background: #1c1e21;
+  color: #fff;
+  padding: 20px;
+  text-align: justify;
+  visibility: hidden;
+}
+
+.randomize {
+  padding: 2rem;
+  font-size: 1.2rem;
+  border-radius: 1.5rem;
+  outline: none;
+  border: none;
+  background: rgb(0, 27, 0);
+  color: #fff;
+}
+
+.randomize:hover {
+  background: #1c1e21;
+}
